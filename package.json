@@ -1,7 +1,13 @@
 {
-  "name":"jarvis-built",
-  "version":"1.0.0",
-  "type":"module",
-  "scripts":{"start":"node server.js"},
-  "dependencies":{"express":"^5.1.0","openai":"^5.0.0"}
+  "name": "jarvis-built",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@vercel/speed-insights": "^2.0.0",
+    "express": "^5.1.0",
+    "openai": "^5.0.0"
+  }
 }
